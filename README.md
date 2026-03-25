@@ -47,6 +47,20 @@ of [Sugar](https://github.com/sugarlabs/sugar), with dependencies on
 latest stable release of Fedora and Debian distributions.
 
 Branch not-gstreamer1
+
+## Debian Setup Notes
+
+Before installing Python dependencies on Debian,
+ensure build tools are installed:
+
+    sudo apt install python3-dev build-essential gcc
+
+If `blis` fails to build during pip install, it is caused
+by missing system-level compiler dependencies.
+The above command resolves it.
+```
+
+---
 =====================
 
 The `not-gstreamer1` branch is a backport of features and bug fixes
