@@ -67,5 +67,3 @@ If `blis` fails to build during pip install, it is caused
 by missing system-level compiler dependencies.
 The above command resolves it.
 ```
-
----
